@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Registration</title>
+		<link rel="stylesheet" type="text/css" href="userStyle.css" />
+	</head>
+	<body>
+		<div align="right">
+			<form name="myForm" method="POST" action="userHandling.php">
+				<table cellpadding="5px" cellspacing="5px" width="450px">
+					<caption><h2>Registration</h2></caption>
+						<tr>
+							<td>Title</td>
+							<td>
+								<select name="title">
+									<option>Mr</option>
+									<option>Ms</option>
+									<option>Dr</option>
+									<option>Prof</option>
+									<option>Rev</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>First Name</td>
+							<td><input type="text" name="fname" /></td>
+						</tr>
+						<tr>
+							<td>Last Name</td>
+							<td><input type="text" name="lname" /></td>
+						</tr>
+						<tr>
+							<td>Gender</td>
+							<td>
+								<input type="radio" name="sex" value="female"/> Female
+								<input type="radio" name="sex" value="male"/> Male
+							</td>
+						</tr>
+						<tr>
+							<td>NIC</td>
+							<td><input type="text" name="nic" /></td>
+						</tr>
+						<tr>
+							<td>Email</td>
+							<td><input type="email" name="email" /></td>
+						</tr>
+						<tr>
+							<td>District</td>
+							<td>
+								<select name="district">
+									<option>Please Choose</option>
+									<option>Colombo</option>
+									<option>Kandy</option>
+									<option>Ratnapura</option>
+									<option>Kalutara</option>
+									<option>Gampaha</option>
+									<option>Kegalle</option>
+									<option>Matara</option>
+									<option>Galle</option>
+									<option>Kurunegala</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Address</td>
+							<td><textarea name="address" cols="24" rows="3"></textarea></td>
+						</tr>
+						<tr>
+							<td>Mobile</td>
+							<td><input type="text" name="mobile" /></td>
+						</tr>
+						<tr>
+							<td>Username</td>
+							<td><input type="text" name="username" /> Use 6 letters username</td> 
+						</tr>
+						<tr>
+							<td>Password</td>
+							<td><input type="password" name="password" /></td>
+						</tr>
+						<tr>
+							<td>Confirm Password</td>
+							<td><input type="password" name="cpassword" /></td>
+						</tr>
+						<tr>
+							<td> </td>
+							<td>
+								<input type="submit" name="signup" value="Sign Up" />
+								<input type="reset" name="reset" value="Reset" />
+							</td>
+						</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
+
+
+
+
